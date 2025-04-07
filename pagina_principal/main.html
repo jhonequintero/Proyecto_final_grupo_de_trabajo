@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="contenedor_principal">
+        <div class="contenedor_logo">
+            <div class="contenedor_img">
+                <img id="imagen_1" src="../img/Captura_de_pantalla_2025-04-03_081700-removebg-preview.png" alt="">
+
+            </div>
+
+        </div>
+
+        <!--  contenedor secciones info-->
+        <div class="contenedor_secciones">
+            <div class="contenedor_logos">
+                <div class="contenedor_info_persona">
+                    <img id="imagen_2" src="../img/Captura_de_pantalla_2025-04-02_073035-removebg-preview.png" alt="">
+                </div>
+                <div class="seccion_logos">
+                    <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png" alt="" onclick="abrirVentanaEmergente('agregarProducto')">
+                    <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png" alt="" onclick="abrirVentanaEmergente('buscarProducto')">
+                    <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png" alt="" onclick="abrirVentanaEmergente('actualizarProducto')">
+                    <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png" alt="" onclick="abrirVentanaEmergente('eliminarProducto')">
+
+                </div>
+
+            </div>
+            <div class="contenedor_info">
+                <!-- secciones a mostrar -->
+
+                <!-- seccion agregar producto -->
+                <section  id="agregarProducto">
+                    <div  class="contenedor_agregar_producto">
+                        <p>¿Desea agregar un producto?</p>
+                        <span class="cerrar" onclick="cerrarVentanaEmergente('agregarProducto')">&times;</span>
+                        
+                    </div>
+                </section>
+
+                <!-- seccion buscar producto    -->
+                <section  id="buscarProducto">
+                    <div  class="contenedor_buscar_producto">
+                        <p>¿Desea buscar un producto?</p>
+                        <span class="cerrar" onclick="cerrarVentanaEmergente('buscarProducto')">&times;</span>
+                        
+                    </div>
+                </section>
+
+
+                <!-- seccion actualizar producto -->
+                <section  id="actualizarProducto">
+                    <div  class="contenedor_actualizar_producto">
+                        <p>¿Desea actualizar el producto?</p>
+                        <span class="cerrar" onclick="cerrarVentanaEmergente('actualizarProducto')">&times;</span>
+                        
+                    </div>
+                </section>
+
+                <!-- seccion eliminar producto -->
+                <section  id="eliminarProducto">
+                    <div  class="contenedor_eliminar_producto">
+                        <p>¿Desea eliminar el producto?</p>
+                        <span class="cerrar" onclick="cerrarVentanaEmergente('eliminarProducto')">&times;</span>
+                        
+                    </div>
+                </section>  
+                
+            </div>
+
+
+
+        </div>
+
+
+
+        
+        <div class="contenedor_footer">
+
+        </div>
+
+
+      
+
+
+
+
+    </div>
+
+
+
+  <script src="main.js"></script>
+    
+</body>
+</html>

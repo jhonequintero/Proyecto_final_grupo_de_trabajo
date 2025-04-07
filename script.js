@@ -1,10 +1,11 @@
-//abrir ventana
+// abrir ventana
 function abrirPopup(id) {
     let popup = document.getElementById(id);
     if (popup) {
         popup.style.display = "block";
     }
 }
+
 // cerrar ventana
 function cerrarPopup(id) {
     let popup = document.getElementById(id);
@@ -13,8 +14,8 @@ function cerrarPopup(id) {
     }
 }
 
-// stylo particulas 
 
+// style particulas 
 particlesJS("particles-js", {
     particles: {
       number: {
@@ -75,4 +76,6 @@ particlesJS("particles-js", {
     },
     retina_detect: true
   });
+
+
 

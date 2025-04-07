@@ -9,14 +9,16 @@
 <link rel="stylesheet" href="Style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 
 <body>
     <div id="particles-js"></div>
     <section>
         <div class="contenedor_principal">
             <div class="contenedor_secciones">
-                <img id="imagen_" src="../img/Logo.png" alt="Logo">
+                <img id="imagen_" src="img/Logo.png" alt="">
                 <!-- <img id="imagen_1" src="i/LOGO_MICRO-removebg-preview.png" alt=""> -->
 
             </div>
@@ -26,7 +28,7 @@
                 <!-- Botón Iniciar Sesión -->
                 <div class="contenedor">
                     <span class="tooltip">Iniciar Sesión</span>
-                    <img id="imagen_2" src="../img/Captura_de_pantalla_2025-04-02_073035-removebg-preview.png"
+                    <img id="imagen_2" src="img/Captura_de_pantalla_2025-04-02_073035-removebg-preview.png"
                         alt="Iniciar Sesión" onclick="abrirPopup('inicioSesion')">
 
                 </div>
@@ -34,7 +36,7 @@
                 <!-- Botón Registrarse -->
                 <div class="contenedor">
                     <span class="tooltip">Registrar Usuario</span>
-                    <img id="imagen_2" src="../img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png"
+                    <img id="imagen_2" src="img/Captura_de_pantalla_2025-04-02_073406-removebg-preview.png"
                         alt="Registrarse" onclick="abrirPopup('registro')">
                 </div>
             </div>
@@ -46,7 +48,7 @@
     <!-- Ventana Emergente para Iniciar Sesión -->
     <div id="inicioSesion" class="popup">
         <div class="popup-contenido">
-            <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-03_081700-removebg-preview.png" alt="">
+            <img id="imagen_3" src="img/Captura_de_pantalla_2025-04-03_081700-removebg-preview.png" alt="">
             <span class="cerrar" onclick="cerrarPopup('inicioSesion')">&times;</span>
             <div class="contenedor-central">
                 <div class="contenedor_centrado_info">
@@ -59,22 +61,21 @@
                             <label for="name" class="form__label">Correo Electronico</label>
                         </div>
 
-                        <!-- <input id="correo" type="email" placeholder="Correo Electronico" required> -->
 
                     </div>
                     <div class="info_contraseña">
                         <div class="form__group field">
                             <input id="contraseña" type="input" class="form__field" placeholder="Contreseña"
                                 required="">
-                            <label  for="name" class="form__label">Contraseña</label>
+                            <label for="name" class="form__label">Contraseña</label>
                         </div>
                     </div>
 
                     <div class="boton_ingresar">
-                         <button  class="animated-button">
+                        <button class="animated-button">
                             <span>Ingresar</span>
                             <span></span>
-                          </button>
+                        </button>
                     </div>
 
                 </div>
@@ -85,9 +86,9 @@
     </div>
 
     <!-- Ventana Emergente para Registro -->
-    <div id="registro" class="popup_2" >
+    <div id="registro" class="popup_2">
         <div class="popup-contenido_2">
-            <img id="imagen_3" src="../img/Captura_de_pantalla_2025-04-03_081700-removebg-preview.png" alt="">
+            <img id="imagen_3" src="img/Captura_de_pantalla_2025-04-03_081700-removebg-preview.png" alt="">
 
             <span class="cerrar" onclick="cerrarPopup('registro')">&times;</span>
             <div class="contenedor-central_2">
@@ -96,47 +97,51 @@
                     <br>
                     <div class="info_nombre_2">
                         <div class="form__group field">
-                            <input  id="tamaño" type="input" class="form__field" placeholder="Nombre completo" required="">
-                            <label  id="tamaño" for="name" class="form__label">Nombre </label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Nombre completo"
+                                required="">
+                            <label id="tamaño" for="name" class="form__label">Nombre </label>
                         </div>
 
                     </div>
                     <div class="info_apellido">
                         <div class="form__group field">
-                            <input  id="tamaño" type="input" class="form__field" placeholder="Identificacion" required="">
-                            <label  id="tamaño" for="name" class="form__label">Identificacion</label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Identificacion"
+                                required="">
+                            <label id="tamaño" for="name" class="form__label">Identificacion</label>
                         </div>
                     </div>
                     <div class="info_correo_2">
                         <div class="form__group field">
-                            <input   id="tamaño" type="input" class="form__field" placeholder="Correo Electronico" required="">
-                            <label  id="tamaño" for="name" class="form__label">Correo Electronico</label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Correo Electronico"
+                                required="">
+                            <label id="tamaño" for="name" class="form__label">Correo Electronico</label>
                         </div>
                     </div>
                     <div class="info_telefono">
                         <div class="form__group field">
-                            <input  id="tamaño" type="input" class="form__field" placeholder="Telefono" required="">
-                            <label  id="tamaño" for="name" class="form__label">Telefono</label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Telefono" required="">
+                            <label id="tamaño" for="name" class="form__label">Telefono</label>
                         </div>
                     </div>
                     <div class="info_contraseña_2">
                         <div class="form__group field">
-                            <input  id="tamaño" type="input" class="form__field" placeholder="Contraseña" required="">
-                            <label  id="tamaño" for="name" class="form__label">Contraseña</label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Contraseña" required="">
+                            <label id="tamaño" for="name" class="form__label">Contraseña</label>
                         </div>
                     </div>
                     <div class="info_contraseña_2">
                         <div class="form__group field">
-                            <input  id="tamaño" type="input" class="form__field" placeholder="Verificar Contraseña" required="">
-                            <label   id="tamaño" for="name" class="form__label">Verificar Contraseña</label>
+                            <input id="tamaño" type="input" class="form__field" placeholder="Verificar Contraseña"
+                                required="">
+                            <label id="tamaño" for="name" class="form__label">Verificar Contraseña</label>
                         </div>
                     </div>
 
                     <div class="boton_ingresar_2">
-                        <button  class="animated-button">
+                        <button class="animated-button">
                             <span>Registrar</span>
                             <span></span>
-                          </button>
+                        </button>
                     </div>
 
                 </div>
@@ -163,7 +168,7 @@
 
 
 
- <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <script src="Script.js"></script>
 </body>
 

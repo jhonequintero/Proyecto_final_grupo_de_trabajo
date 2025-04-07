@@ -19,8 +19,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    
-    /* font-family: ; */
+
 }
 
 
@@ -42,7 +41,6 @@ body {
     background-color: transparent;
     display: flex;
     justify-content: flex-start;
-    /* padding-left: 8em; */
     padding-left: 5.2em;
 
 }
@@ -235,15 +233,8 @@ body {
 
 .contenedor_centrado_info {
     background-color: transparent;
-
-    /* display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center; */
     width: 50%;
     height: 320px;
-    /* border: 1px solid white; */
     position: relative;
     top: 70px;
 
@@ -257,23 +248,13 @@ body {
     height: 50px;
     padding-top: 11px;
 }
-/* .titulo {
-    font-size: 24px; /* Ajusta el tamaño según necesites 
-    font-weight: bold;
-    }
-   */
+
 
 .titulo {
     color: white;
     position: relative;
     top: 20px;
     display: flex;
-    /* background: linear-gradient(to right, rgba(255, 140, 66, 0) 0%, #FF8C42 50%, rgba(255, 140, 66, 0) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block; /* Evita problemas con alineaciones 
-   */
-
     font-size: 16px;
 }
 
@@ -315,7 +296,6 @@ body {
 
 .form__field:placeholder-shown~.form__label {
     font-size: 17px;
-    /* font-size: 14px; */
     cursor: text;
     top: 20px;
 }
@@ -327,7 +307,6 @@ body {
     transition: 0.2s;
     font-size: 17px;
     color: #9b9b9b;
-    /* color: #5D6D7E; */
     pointer-events: none;
 }
 
@@ -398,69 +377,6 @@ body {
 
 /* ------- Estilos de la ventana emergente registro de usuario ------- */
 
-/* 
-.titulo_2 {
-    color: white;
-    position: relative;
-    top: -40px;
-    right: 60px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 16px;
-}
-
-.info_nombre {
-    background-color: transparent;
-    color: white;
-    width: 700px;
-    height: auto;
-    display: flex;
-    position: relative;
-    top: -30px;
-}
-
-.mitad{
-    background-color: transparent;
-    width: 50%;
-    height: 100%;
-    display:grid;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-
-   
-}
-.mitad_2{
-    background-color: transparent;
-    width: 50%;
-    height: 100%;
-    display:grid;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.boton_ingresar_2 {
-    background-color:transparent;
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    position: relative;
-    top: 20px;
-}
-
-#boton_2 {
-    width: 90px;
-    height: 24px;
-} */
-
-/* #input_unico{
-    margin-top: 1px;
-} */
 
 #tamaño{
     font-size: 14px;
@@ -477,7 +393,6 @@ body {
     width: 400px;
     height:560px;
     border: 1px solid white;
-    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); */
     border-radius: 10px;
     z-index: 1000;
 }
